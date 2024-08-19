@@ -1,4 +1,6 @@
 using HumanResourcesAPI.Data;
+using HumanResourcesAPI.Repositories.Implementation;
+using HumanResourcesAPI.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +16,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("HrConnectionString"));
 });
+
+builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
 
 var app = builder.Build();
 

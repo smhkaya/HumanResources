@@ -1,6 +1,7 @@
 ﻿using HumanResourcesAPI.Data;
 using HumanResourcesAPI.Models.Domain;
 using HumanResourcesAPI.Models.DTO;
+using HumanResourcesAPI.Repositories.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,11 +11,11 @@ namespace HumanResourcesAPI.Controllers
     [ApiController]
     public class DepartmentController : ControllerBase
     {
-        private readonly AppDbContext dbContext;
+        private readonly IDepartmentRepository departmentRepository;
 
-        public DepartmentController(AppDbContext dbContext)
+        public DepartmentController(IDepartmentRepository departmentRepository)
         {
-            this.dbContext = dbContext;
+            this.departmentRepository = departmentRepository;
         }
 
         [HttpPost]
@@ -27,9 +28,7 @@ namespace HumanResourcesAPI.Controllers
                 Location = request.Location
             };
 
-            await dbContext.Departments.AddAsync(department);
-            await dbContext.SaveChangesAsync();
-
+            await departmentRepository.CreateAsync(department);
             
             var response = new DepartmentDto
             {
