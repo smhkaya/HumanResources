@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\API",
+    "\\API\\HumanResourcesAPI",
+    "\\API\\HumanResourcesAPI\\HumanResourcesAPI",
+    "\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Controllers"
+  ],
+  "SelectedNode": "\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Controllers\\DepartmentController.cs",
+  "PreviewInSolutionExplorer": false
+}
