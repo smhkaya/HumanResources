@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AddDepartmentRequest } from '../models/add-department-request.model';
+import { DepartmentService } from '../../services/department.service';
 
 @Component({
   selector: 'app-add-department',
@@ -10,15 +11,20 @@ export class AddDepartmentComponent {
 
   model: AddDepartmentRequest;
 
-  constructor(){
+  constructor(private departmentService : DepartmentService){
     this.model = {
-      name: 'Semih',
+      name: '',
       location: ''
     };
   }
 
 
   onFormSubmit(){
-    console.log(this.model);
+    this.departmentService.addDepartment(this.model)
+    .subscribe({
+      next: (response) => {
+        console.log('Succesful!');
+      }
+    });
   }
 }
