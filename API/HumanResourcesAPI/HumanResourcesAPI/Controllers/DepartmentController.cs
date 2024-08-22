@@ -21,7 +21,7 @@ namespace HumanResourcesAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateDepartment(CreateDepartmentRequestDto request)
         {
-            
+             
             var department = new Department
             {
                 Name = request.Name,
