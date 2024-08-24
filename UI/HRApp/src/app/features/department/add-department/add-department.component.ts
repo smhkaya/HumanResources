@@ -1,17 +1,25 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { AddDepartmentRequest } from '../models/add-department-request.model';
-import { DepartmentService } from '../../services/department.service';
+import { Subscription } from 'rxjs';
+import { DepartmentService } from '../services/department.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-add-department',
   templateUrl: './add-department.component.html',
   styleUrls: ['./add-department.component.css']
 })
-export class AddDepartmentComponent {
+export class AddDepartmentComponent implements OnDestroy {
 
   model: AddDepartmentRequest;
+  private addDepartmentSubscribtion? : Subscription;
 
-  constructor(private departmentService : DepartmentService){
+
+
+
+  constructor(private departmentService : DepartmentService,
+    private router: Router)
+    {
     this.model = {
       name: '',
       location: ''
@@ -20,11 +28,17 @@ export class AddDepartmentComponent {
 
 
   onFormSubmit(){
-    this.departmentService.addDepartment(this.model)
+    this.addDepartmentSubscribtion = this.departmentService.addDepartment(this.model)
     .subscribe({
       next: (response) => {
-        console.log('Succesful!');
+        this.router.navigateByUrl('/admin/departments');
+
       }
     });
   }
+
+  ngOnDestroy(): void {
+    this.addDepartmentSubscribtion?.unsubscribe();
+  }
+
 }

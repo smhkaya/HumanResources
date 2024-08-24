@@ -21,5 +21,10 @@ namespace HumanResourcesAPI.Repositories.Implementation
 
             return department;
         }
+
+        public async Task<IEnumerable<Department>> GetAllAsync()
+        {
+            return await dbContext.Departments.ToListAsync();
+        }
     }
 }

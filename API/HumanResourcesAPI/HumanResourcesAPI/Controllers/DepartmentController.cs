@@ -40,5 +40,25 @@ namespace HumanResourcesAPI.Controllers
 
             return Ok(response);
         }
+
+        [HttpGet]
+
+        public async Task<IActionResult> GetAllDepartments()
+        {
+            var departments = await departmentRepository.GetAllAsync();
+
+            var response = new List<DepartmentDto>();
+            foreach (var department in departments)
+            {
+                response.Add(new DepartmentDto
+                {
+                    Id = department.Id,
+                    Name = department.Name,
+                    Location = department.Location
+                });
+            }
+            return Ok(response);
+        }
+
     }
 }
