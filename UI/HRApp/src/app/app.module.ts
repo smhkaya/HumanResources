@@ -7,14 +7,16 @@ import { NavbarComponent } from './core/components/navbar/navbar.component';
 import { DepartmentListComponent } from './features/department/department-list/department-list.component';
 import { AddDepartmentComponent } from './features/department/add-department/add-department.component';
 import { FormsModule } from '@angular/forms';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { EditDepartmentComponent } from './features/department/edit-department/edit-department.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     DepartmentListComponent,
-    AddDepartmentComponent
+    AddDepartmentComponent,
+    EditDepartmentComponent
   ],
   imports: [
     BrowserModule,

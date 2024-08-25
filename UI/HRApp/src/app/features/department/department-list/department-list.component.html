@@ -20,6 +20,9 @@
                     <td>{{department.id}}</td>
                     <td>{{department.name}}</td>
                     <td>{{department.location}}</td>
+                    <td>
+                        <a class="btn btn-light" [routerLink]="['/admin/departments', department.id]">Edit</a>
+                    </td>
                 </tr>
             </tbody>
 
@@ -27,3 +30,5 @@
 
     </ng-container>
 </div>
+
+

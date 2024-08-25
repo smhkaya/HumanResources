@@ -21,7 +21,7 @@ namespace HumanResourcesAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateDepartment(CreateDepartmentRequestDto request)
         {
-             
+
             var department = new Department
             {
                 Name = request.Name,
@@ -29,7 +29,7 @@ namespace HumanResourcesAPI.Controllers
             };
 
             await departmentRepository.CreateAsync(department);
-            
+
             var response = new DepartmentDto
             {
                 Id = department.Id,
@@ -42,7 +42,6 @@ namespace HumanResourcesAPI.Controllers
         }
 
         [HttpGet]
-
         public async Task<IActionResult> GetAllDepartments()
         {
             var departments = await departmentRepository.GetAllAsync();
@@ -60,5 +59,75 @@ namespace HumanResourcesAPI.Controllers
             return Ok(response);
         }
 
+        [HttpGet]
+        [Route("{id:Guid}")]
+        public async Task<IActionResult> GetDepartmentById([FromRoute] Guid id)
+        {
+            var existingDepartment = await departmentRepository.GetById(id);
+
+            if (existingDepartment is null)
+            {
+                return NotFound();
+            }
+
+            var response = new DepartmentDto
+            {
+                Id = existingDepartment.Id,
+                Name = existingDepartment.Name,
+                Location = existingDepartment.Location
+            };
+
+            return Ok(response);
+
+        }
+
+        [HttpPut]
+        [Route("{id:Guid}")]
+        public async Task<IActionResult> EditDepartment([FromRoute] Guid id, UpdateDepartmentRequestDto request)
+        {
+            var department = new Department
+            {
+                Id = id,
+                Name = request.Name,
+                Location = request.Location
+            };
+
+            department = await departmentRepository.UpdateAsync(department);
+
+            if (department is null)
+            {
+                return NotFound();
+            }
+
+            var response = new DepartmentDto
+            {
+                Id = department.Id,
+                Name = department.Name,
+                Location = department.Location
+            };
+            return Ok(response);
+
+        }
+
+        [HttpDelete]
+        [Route("{id:Guid}")]
+        public async Task<IActionResult> DeleteDepartment([FromRoute] Guid id)
+        {
+            var department = await departmentRepository.DeleteAsync(id);
+
+            if (department is null)
+            {
+                return NotFound();
+            }
+
+            var response = new DepartmentDto
+            {
+                Id = department.Id,
+                Name = department.Name,
+                Location = department.Location
+            };
+
+            return Ok(response);
+        }
     }
 }
