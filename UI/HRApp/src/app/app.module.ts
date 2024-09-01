@@ -8,7 +8,10 @@ import { DepartmentListComponent } from './features/department/department-list/d
 import { AddDepartmentComponent } from './features/department/add-department/add-department.component';
 import { FormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
-import { EditDepartmentComponent } from './features/department/edit-department/edit-department.component'
+import { EditDepartmentComponent } from './features/department/edit-department/edit-department.component';
+import { EmployeeListComponent } from './features/employee/employee-list/employee-list.component';
+import { AddEmployeeComponent } from './features/employee/add-employee/add-employee.component';
+import { EditEmployeeComponent } from './features/employee/edit-employee/edit-employee.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { EditDepartmentComponent } from './features/department/edit-department/e
     NavbarComponent,
     DepartmentListComponent,
     AddDepartmentComponent,
-    EditDepartmentComponent
+    EditDepartmentComponent,
+    EmployeeListComponent,
+    AddEmployeeComponent,
+    EditEmployeeComponent,
   ],
   imports: [
     BrowserModule,
