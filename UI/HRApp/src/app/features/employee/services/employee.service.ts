@@ -14,7 +14,7 @@ export class EmployeeService {
   constructor(private http: HttpClient) { }
 
   createEmployee(model: AddEmployee): Observable<void> {
-    return this.http.post<void>(`${environment.apiBaseUrl}/api/employee`, model);
+    return this.http.post<void>(`${environment.apiBaseUrl}/api/employee?addAuth=true`, model);
   }
 
   getAllEmployees(): Observable<Employee[]> {
@@ -26,10 +26,10 @@ export class EmployeeService {
   }
 
   updateEmployee(id: string, updateEmployeeRequest: UpdateEmployeeRequest): Observable<Employee> {
-    return this.http.put<Employee>(`${environment.apiBaseUrl}/api/employee/${id}`, updateEmployeeRequest);
+    return this.http.put<Employee>(`${environment.apiBaseUrl}/api/employee/${id}?addAuth=true`, updateEmployeeRequest);
   }
 
   deleteEmployee(id: string): Observable<Employee> {
-    return this.http.delete<Employee>(`${environment.apiBaseUrl}/api/employee/${id}`);
+    return this.http.delete<Employee>(`${environment.apiBaseUrl}/api/employee/${id}?addAuth=true`);
   }
 }

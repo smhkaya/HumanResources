@@ -6,30 +6,43 @@ import { EditDepartmentComponent } from './features/department/edit-department/e
 import { EmployeeListComponent } from './features/employee/employee-list/employee-list.component';
 import { AddEmployeeComponent } from './features/employee/add-employee/add-employee.component';
 import { EditEmployeeComponent } from './features/employee/edit-employee/edit-employee.component';
+import { LoginComponent } from './features/auth/login/login.component';
+import { authGuard } from './features/auth/guards/auth.guard';
 
 const routes: Routes = [
+
+  {
+    path: 'login',
+    component: LoginComponent
+  },
   {
     path: 'admin/departments',
-    component: DepartmentListComponent
+    component: DepartmentListComponent,
+    canActivate: [authGuard]
   },
   {
     path: 'admin/departments/add',
-    component: AddDepartmentComponent
+    component: AddDepartmentComponent,
+    canActivate: [authGuard]
   },
   {
     path: 'admin/departments/:id',
-    component: EditDepartmentComponent
+    component: EditDepartmentComponent,
+    canActivate: [authGuard]
   },
   {
     path: 'admin/employees',
-    component: EmployeeListComponent
+    component: EmployeeListComponent,
+    canActivate: [authGuard]
   },
   {
     path: 'admin/employees/add',
-    component: AddEmployeeComponent
+    component: AddEmployeeComponent,
+    canActivate: [authGuard]
   },
   { path: 'admin/employees/edit/:id', 
-    component: EditEmployeeComponent 
+    component: EditEmployeeComponent,
+    canActivate: [authGuard]
   }
 ];
 

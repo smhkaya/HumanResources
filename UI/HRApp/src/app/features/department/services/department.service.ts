@@ -5,16 +5,19 @@ import { Department } from '../models/department.model';
 import { AddDepartmentRequest } from '../models/add-department-request.model';
 import { environment } from 'src/environments/environment';
 import { UpdateDepartmentRequest } from '../models/update-department-request.model';
+import { CookieService } from 'ngx-cookie-service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DepartmentService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient,
+    private cookieService: CookieService
+  ) { }
 
   addDepartment(model: AddDepartmentRequest): Observable<void> {
-    return this.http.post<void>(`${environment.apiBaseUrl}/api/department`, model);
+    return this.http.post<void>(`${environment.apiBaseUrl}/api/department?addAuth=true`, model);
   }
 
   getAllDepartments(): Observable<Department[]> {
@@ -27,11 +30,12 @@ export class DepartmentService {
 
   updateDepartment(id: string, updateDepartmentRequest: UpdateDepartmentRequest) : Observable<Department>
   {
-    return this.http.put<Department>(`${environment.apiBaseUrl}/api/department/${id}`,
-      updateDepartmentRequest);
+    return this.http.put<Department>(`${environment.apiBaseUrl}/api/department/${id}?addAuth=true`,
+      updateDepartmentRequest
+      );
   }
 
   deleteDepartment(id: string) : Observable<Department> {
-    return this.http.delete<Department>(`${environment.apiBaseUrl}/api/department/${id}`)
+    return this.http.delete<Department>(`${environment.apiBaseUrl}/api/department/${id}?addAuth=true`)
   }
 }

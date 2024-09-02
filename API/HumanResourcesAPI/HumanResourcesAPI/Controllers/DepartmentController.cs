@@ -2,6 +2,7 @@
 using HumanResourcesAPI.Models.Domain;
 using HumanResourcesAPI.Models.DTO;
 using HumanResourcesAPI.Repositories.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -42,6 +43,7 @@ namespace HumanResourcesAPI.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAllDepartments()
         {
             var departments = await departmentRepository.GetAllAsync();

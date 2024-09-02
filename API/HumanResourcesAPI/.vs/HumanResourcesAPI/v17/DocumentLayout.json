@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\repositories\\implementation\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\repositories\\implementation\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\models\\dto\\updateemployeerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\models\\dto\\updateemployeerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\models\\dto\\updatedepartmentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\models\\dto\\updatedepartmentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Migrations\\AuthDb\\20240902001521_InitialCreateAuthDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HumanResourcesAPI\\Migrations\\AuthDb\\20240902001521_InitialCreateAuthDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\models\\dto\\createemployeerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\models\\dto\\createemployeerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\humanresourcesapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\humanresourcesapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\repositories\\implementation\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\repositories\\implementation\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\migrations\\authdb\\20240902003256_initialcreateauthdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\migrations\\authdb\\20240902003256_initialcreateauthdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\repositories\\interface\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\repositories\\interface\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\models\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\models\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|c:\\users\\semih\\desktop\\humanresources\\api\\humanresourcesapi\\humanresourcesapi\\migrations\\20240902003247_initialcreateappdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BBACAA-BCCD-426B-BD9E-842AB9EBE0BA}|HumanResourcesAPI\\HumanResourcesAPI.csproj|solutionrelative:humanresourcesapi\\migrations\\20240902003247_initialcreateappdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,120 +54,100 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateEmployeeRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Models\\DTO\\UpdateEmployeeRequestDto.cs",
-              "RelativeDocumentMoniker": "HumanResourcesAPI\\Models\\DTO\\UpdateEmployeeRequestDto.cs",
-              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Models\\DTO\\UpdateEmployeeRequestDto.cs",
-              "RelativeToolTip": "HumanResourcesAPI\\Models\\DTO\\UpdateEmployeeRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "DocumentIndex": 6,
+              "Title": "20240902003256_InitialCreateAuthDb.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Migrations\\AuthDb\\20240902003256_InitialCreateAuthDb.cs",
+              "RelativeDocumentMoniker": "HumanResourcesAPI\\Migrations\\AuthDb\\20240902003256_InitialCreateAuthDb.cs",
+              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Migrations\\AuthDb\\20240902003256_InitialCreateAuthDb.cs",
+              "RelativeToolTip": "HumanResourcesAPI\\Migrations\\AuthDb\\20240902003256_InitialCreateAuthDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T02:12:21.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmployeeDto.cs",
-              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Models\\DTO\\EmployeeDto.cs",
-              "RelativeDocumentMoniker": "HumanResourcesAPI\\Models\\DTO\\EmployeeDto.cs",
-              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Models\\DTO\\EmployeeDto.cs",
-              "RelativeToolTip": "HumanResourcesAPI\\Models\\DTO\\EmployeeDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T02:10:52.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdateDepartmentRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Models\\DTO\\UpdateDepartmentRequestDto.cs",
-              "RelativeDocumentMoniker": "HumanResourcesAPI\\Models\\DTO\\UpdateDepartmentRequestDto.cs",
-              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Models\\DTO\\UpdateDepartmentRequestDto.cs",
-              "RelativeToolTip": "HumanResourcesAPI\\Models\\DTO\\UpdateDepartmentRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T02:10:49.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T00:32:56.399Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IEmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Repositories\\Interface\\IEmployeeRepository.cs",
-              "RelativeDocumentMoniker": "HumanResourcesAPI\\Repositories\\Interface\\IEmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Repositories\\Interface\\IEmployeeRepository.cs",
-              "RelativeToolTip": "HumanResourcesAPI\\Repositories\\Interface\\IEmployeeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Title": "20240902003247_InitialCreateAppDb.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Migrations\\20240902003247_InitialCreateAppDb.cs",
+              "RelativeDocumentMoniker": "HumanResourcesAPI\\Migrations\\20240902003247_InitialCreateAppDb.cs",
+              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Migrations\\20240902003247_InitialCreateAppDb.cs",
+              "RelativeToolTip": "HumanResourcesAPI\\Migrations\\20240902003247_InitialCreateAppDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T02:09:03.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T00:32:47.587Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Repositories\\Implementation\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "HumanResourcesAPI\\Repositories\\Implementation\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Repositories\\Implementation\\EmployeeRepository.cs",
-              "RelativeToolTip": "HumanResourcesAPI\\Repositories\\Implementation\\EmployeeRepository.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAwwBwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T02:06:25.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DepartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Repositories\\Implementation\\DepartmentRepository.cs",
-              "RelativeDocumentMoniker": "HumanResourcesAPI\\Repositories\\Implementation\\DepartmentRepository.cs",
-              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Repositories\\Implementation\\DepartmentRepository.cs",
-              "RelativeToolTip": "HumanResourcesAPI\\Repositories\\Implementation\\DepartmentRepository.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAuwD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T02:06:13.086Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "HumanResourcesAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\appsettings.json",
+              "RelativeToolTip": "HumanResourcesAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-02T00:18:12.182Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "HumanResourcesAPI\\Controllers\\DepartmentController.cs",
-              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "HumanResourcesAPI\\Controllers\\DepartmentController.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAuwG4AAAAAAAAA",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "HumanResourcesAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "HumanResourcesAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAYwFcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T02:04:53.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T00:17:48.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "HumanResourcesAPI\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "HumanResourcesAPI\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAUwLIAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "20240902001521_InitialCreateAuthDb.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Migrations\\AuthDb\\20240902001521_InitialCreateAuthDb.cs",
+              "RelativeDocumentMoniker": "HumanResourcesAPI\\Migrations\\AuthDb\\20240902001521_InitialCreateAuthDb.cs",
+              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Migrations\\AuthDb\\20240902001521_InitialCreateAuthDb.cs",
+              "RelativeToolTip": "HumanResourcesAPI\\Migrations\\AuthDb\\20240902001521_InitialCreateAuthDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T00:51:45.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T00:15:22.118Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CreateEmployeeRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Models\\DTO\\CreateEmployeeRequestDto.cs",
-              "RelativeDocumentMoniker": "HumanResourcesAPI\\Models\\DTO\\CreateEmployeeRequestDto.cs",
-              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Models\\DTO\\CreateEmployeeRequestDto.cs",
-              "RelativeToolTip": "HumanResourcesAPI\\Models\\DTO\\CreateEmployeeRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "HumanResourcesAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\HumanResourcesAPI.csproj",
+              "RelativeDocumentMoniker": "HumanResourcesAPI\\HumanResourcesAPI.csproj",
+              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\HumanResourcesAPI.csproj",
+              "RelativeToolTip": "HumanResourcesAPI\\HumanResourcesAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-02T00:05:02.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "HumanResourcesAPI\\Data\\AuthDbContext.cs",
+              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "HumanResourcesAPI\\Data\\AuthDbContext.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowEUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T02:49:22.781Z",
+              "WhenOpened": "2024-09-02T00:00:24.611Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Program.cs",
+              "RelativeDocumentMoniker": "HumanResourcesAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Semih\\Desktop\\HumanResources\\API\\HumanResourcesAPI\\HumanResourcesAPI\\Program.cs",
+              "RelativeToolTip": "HumanResourcesAPI\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAswCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T22:41:25.872Z"
             }
           ]
         }
