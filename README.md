@@ -1,0 +1,1 @@
+This project was developed during my internship. The backend is built with ASP.NET Core Web API, while the frontend is designed using Angular. The application is a Human Resources Management System that enables managing employee information, job titles, salaries, and other related data.
